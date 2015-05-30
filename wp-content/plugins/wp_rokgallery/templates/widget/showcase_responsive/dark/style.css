@@ -1,0 +1,5 @@
+/* RokGallery - Showcase - Dark */
+
+.rg-scr-controls .prev, .rg-scr-controls .next {background-color: #444;background-image: url(images/showcase-arrows.png);}
+.rg-scr-controls .prev:hover, .rg-scr-controls .next:hover {background-color: #555;}
+.rg-scr-thumbs-list li {background: #fff;}

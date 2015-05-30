@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="target" type="list" default="_blank" label="Target">
+			<option value="_parent">Parent</option>
+			<option value="_blank">New Window</option>            	
+		</field>
+		<field name="button-1-icon" type="text" default="" label="Icon 1" class="widefat" />
+		<field name="button-1-text" type="text" default="" label="Text 1" class="widefat" />
+		<field name="button-1-link" type="text" default="" label="Link 1" class="widefat" />
+		<field name="button-2-icon" type="text" default="" label="Icon 2" class="widefat" />
+		<field name="button-2-text" type="text" default="" label="Text 2" class="widefat" />
+		<field name="button-2-link" type="text" default="" label="Link 2" class="widefat" />
+		<field name="button-3-icon" type="text" default="" label="Icon 3" class="widefat" />
+		<field name="button-3-text" type="text" default="" label="Text 3" class="widefat" />
+		<field name="button-3-link" type="text" default="" label="Link 3" class="widefat" />
+		<field name="button-4-icon" type="text" default="" label="Icon 4" class="widefat" />
+		<field name="button-4-text" type="text" default="" label="Text 4" class="widefat" />
+		<field name="button-4-link" type="text" default="" label="Link 4" class="widefat" />
+		<field name="button-5-icon" type="text" default="" label="Icon 5" class="widefat" />
+		<field name="button-5-text" type="text" default="" label="Text 5" class="widefat" />
+		<field name="button-5-link" type="text" default="" label="Link 5" class="widefat" />
+		<field name="button-6-icon" type="text" default="" label="Icon 6" class="widefat" />
+		<field name="button-6-text" type="text" default="" label="Text 6" class="widefat" />
+		<field name="button-6-link" type="text" default="" label="Link 6" class="widefat" />
+		<field name="wpml_inputs" type="hidden" default="button-1-text button-2-text button-3-text button-4-text button-5-text button-6-text" description="Input field names (separated by space) that can be translated by WPML" readonly="true" />
+	</fieldset>
+</form>

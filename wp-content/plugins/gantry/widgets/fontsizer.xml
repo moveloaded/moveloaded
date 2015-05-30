@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: fontsizer.xml 61341 2015-02-24 19:42:57Z jakub $ -->
+<form>
+    <fieldset name="widget">
+        <field name="text" type="text" label="Font Sizer Text" description="Font Sizer Text" class="widefat" size="30" default="Font Size" readonly="false"/>
+        <field name="wpml_inputs" type="hidden" default="text" description="Input field names (separated by space) that can be translated by WPML" readonly="true" />
+    </fieldset>
+</form>

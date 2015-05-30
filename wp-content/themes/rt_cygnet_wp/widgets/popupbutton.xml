@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="text" type="text" label="Label" description="Popup button label" default="Popup Widget" class="widefat" readonly="false"/>
+		<field name="width" type="text" label="Width" description="Width of the RokBox box with your widget" default="250" class="widefat" readonly="false"/>
+		<field name="height" type="text" label="Height" description="Height of the RokBox box with your widget" default="265" class="widefat" readonly="false"/>
+		<field name="wpml_inputs" type="hidden" default="text" description="Input field names (separated by space) that can be translated by WPML" readonly="true" />
+	</fieldset>
+</form>

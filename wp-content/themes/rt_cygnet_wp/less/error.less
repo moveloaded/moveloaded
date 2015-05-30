@@ -1,0 +1,74 @@
+/**
+ * @version   1.0 May 15, 2015
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2015 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+@import "variables.less";
+@import "mainbody-@{mainbody-overlay}.less";
+@import "/jui/less/mixins.less";
+@import "mixins/index.less";
+
+.rt-error-body {
+	margin: 150px auto;
+	padding: 50px 0;
+	width: 80%;
+	@media only screen and (max-width: 767px) {
+		body.layout-mode-responsive & {
+			width: 100%;
+			margin: 50px 0;
+		}
+	}
+	@media only screen and (max-width: 480px) {
+		body.layout-mode-responsive & {
+			width: 100%;
+			margin: 0;
+		}
+	}
+}
+.rt-error-header {
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+}
+
+.rt-error-code {
+	font-size: 8em;
+	line-height: 1.5em;
+	display: block;
+}
+
+.rt-error-code-desc {
+	text-transform: uppercase;
+}
+
+.rt-error-content {
+	text-align: center;
+	margin: 25px auto;
+	display: block;
+}
+
+.rt-error-title {
+	font-size: 2em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+
+.rt-error-message {
+	font-size: 1em;
+	margin: 15px 0;
+}
+
+.rt-error-button {
+	margin: 25px 0;
+	.readon {
+		.textColor(@accent-color1);
+		border: 2px solid transparent;
+		background: @accent-color1;
+		&:hover {
+			.textColor(@accent-color1);
+			background: lighten(@accent-color1, 10%);
+		}
+	}
+}

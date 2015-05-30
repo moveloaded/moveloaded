@@ -1,0 +1,56 @@
+/**
+ * @version   1.0 May 15, 2015
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2015 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+@import "mixins/index.less";
+
+// Large Mode
+@media only screen and (min-width: 1200px) {
+	.rt-dropdown-left-large:hover > .dropdown {
+		.rt-flyout-left-direction();
+		.gf-menu > & {
+			.rt-dropdown-left-direction();
+		}
+	}
+	.rt-dropdown-right-large:hover > .dropdown {
+		.rt-flyout-right-direction();
+		.gf-menu > & {
+			.rt-dropdown-right-direction();
+		}
+	}
+}
+
+// Desktop Modes
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.rt-dropdown-left-desktop:hover > .dropdown {
+		.rt-flyout-left-direction();
+		.gf-menu > & {
+			.rt-dropdown-left-direction();
+		}
+	}
+	.rt-dropdown-right-desktop:hover > .dropdown {
+		.rt-flyout-right-direction();
+		.gf-menu > & {
+			.rt-dropdown-right-direction();
+		}
+	}
+}
+
+// Tablet Modes
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.rt-dropdown-left-tablet:hover > .dropdown {
+		.rt-flyout-left-direction();
+		.gf-menu > & {
+			.rt-dropdown-left-direction();
+		}
+	}
+	.rt-dropdown-right-tablet:hover > .dropdown {
+		.rt-flyout-right-direction();
+		.gf-menu > & {
+			.rt-dropdown-right-direction();
+		}
+	}
+}

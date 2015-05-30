@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: meta.xml 61344 2015-02-25 13:37:59Z jakub $ -->
+<form>
+    <fieldset name="widget">
+        <field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Meta" readonly="false"/>
+        <field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="" readonly="false"/>
+    </fieldset>
+</form>

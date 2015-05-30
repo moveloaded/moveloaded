@@ -1,0 +1,53 @@
+/** General **/
+
+#rb-main {max-width: 800px; margin: 30px auto 0;}
+#rb-main .rb-submit {float: right;}
+#rb-main .rb-logo {margin: 0 auto; width: 154px; height: 168px;}
+#rb-main .rb-logo #rokbox {background: url('../images/rokbox.jpg') 0 0 no-repeat; display: block; width: 154px; height: 168px;}
+#rb-main .rightcol, #rb-main .leftcol {padding: 15px 0;}
+#rb-main .clear {clear: both;}
+
+/** Left Column **/
+
+#rb-main .leftcol h3.available-options {margin: 10px 0 25px 15px;}
+#rb-main .leftcol .param-row {padding: 7px 15px; border-bottom: 1px solid #E1E1E1; display: block; min-height: 30px; line-height: 30px;}
+#rb-main .leftcol .param-row.first {border-top: 1px solid #E1E1E1;}
+#rb-main .leftcol .param-row.last {border-bottom: none;}
+#rb-main .leftcol .param-row .add-on {position: relative; display: inline-block; background-color: #EEEEEE; border: 1px solid #E1E1E1; color: #999999; margin: 0 0 2px -5px; height: 20px; line-height: 20px; padding: 3px 6px; border-radius: 0 3px 3px 0; width: auto;}
+#rb-main .leftcol .label, #rb-main .leftcol .option {width: 50%; display: inline-block;}
+#rb-main .leftcol .label {float: left;}
+#rb-main .leftcol .option label {position: relative; top: -2px;}
+#rb-main .leftcol .option .second {margin-left: 10px;}
+#rb-main .leftcol .option .text-input {width: 10em;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#rb-main .leftcol .param-row .add-on {height: 19px;}
+}
+
+/** Right Column **/
+
+#rb-main .rightcol {border-left: 1px solid #E1E1E1;}
+#rb-main .rightcol .branding {margin: 0 auto; text-align: center;}
+#rb-main .rightcol .branding h1 {margin: 25px 0;}
+#rb-main .rightcol .desc {text-align: center; margin: 0 auto; padding: 0 15px;}
+
+/** Mobile **/
+
+@media only screen and (max-width: 782px) {
+	#rb-main {margin-right: 10px;}
+	#rb-main .rightcol {display: none; width: 0 !important;}
+	#rb-main .leftcol {width: 100%;}
+	#rb-main .leftcol .option .text-input {width: 8em;}
+	#rb-main .leftcol .option .second {margin-left: 5px;}
+	#rb-main .leftcol .param-row .add-on {height: 29px; line-height: 30px; margin: 0 0 2px -5px; top: -1px;}
+}
+
+@media only screen and (max-width: 782px) and (-webkit-min-device-pixel-ratio:0) {
+	#rb-main .leftcol .param-row .add-on {height: 28px; top: 0;}
+}
+
+/** WP 3.2 - 3.7 Compatibility **/
+
+.branch-3-2 #rb-main .leftcol .option .text-input, .branch-3-3 #rb-main .leftcol .option .text-input, .branch-3-4 #rb-main .leftcol .option .text-input, .branch-3-5 #rb-main .leftcol .option .text-input, .branch-3-6 #rb-main .leftcol .option .text-input, .branch-3-7 #rb-main .leftcol .option .text-input {margin: 1px; padding: 5px; font-size: 14px; line-height: 15px; border-radius: 0;}
+.branch-3-2 #rb-main .leftcol .param-row .add-on, .branch-3-3 #rb-main .leftcol .param-row .add-on, .branch-3-4 #rb-main .leftcol .param-row .add-on, .branch-3-5 #rb-main .leftcol .param-row .add-on, .branch-3-6 #rb-main .leftcol .param-row .add-on, .branch-3-7 #rb-main .leftcol .param-row .add-on {height: 19px; line-height: 19px;}
+.branch-3-2 #rb-main .leftcol .param-row input[type="radio"], .branch-3-3 #rb-main .leftcol .param-row input[type="radio"], .branch-3-4 #rb-main .leftcol .param-row input[type="radio"], .branch-3-5 #rb-main .leftcol .param-row input[type="radio"], .branch-3-6 #rb-main .leftcol .param-row input[type="radio"], .branch-3-7 #rb-main .leftcol .param-row input[type="radio"] {margin: 0 3px;}

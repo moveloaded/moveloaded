@@ -1,0 +1,26 @@
+/**
+ * @version   1.0 May 15, 2015
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2015 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Button Styling */
+.buttonStyle(){
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;	
+}
+.buttonStyleFlat(@textColor: #f0f0f0, @Background: #000000, @borderRadius: 0){
+	.buttonStyle();
+	.border-radius(@borderRadius);
+	color: @textColor;
+	background-color: @Background;
+}	
+.buttonStyleGradient(@textColor: #c8c8c8, @startBackgroundColor: #f0f0f0, @endBackgroundColor: #ebebeb, @borderRadius: 0){
+	.buttonStyle();
+	.user-select(none);
+	.border-radius(@borderRadius);
+	#gradient > .vertical(@startBackgroundColor, @endBackgroundColor);
+}

@@ -1,0 +1,329 @@
+<wpml-config>  
+	<admin-texts>
+		<!-- Begin default keys for all themes -->
+		<key name="rt_cygnet_wp-template-options">
+			<key name="blog">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="page">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+			</key>
+			<key name="single">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+			</key>
+			<key name="category">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="archive">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="tag">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="search">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="title">
+				<key name="format" />
+			</key>
+			<key name="maintenancemode">
+				<key name="message" />
+			</key>
+			<key name="contact">
+				<key name="header" />
+			</key>
+		</key>
+		<!-- End default keys for all themes -->
+
+		<!-- Begin override keys for all themes -->
+		<key name="rt_cygnet_wp-template-options-override-*">
+			<key name="blog">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="page">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+			</key>
+			<key name="single">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+			</key>
+			<key name="category">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="archive">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="tag">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="search">
+				<key name="page-heading">
+					<key name="text" />
+				</key>
+				<key name="meta-author">
+					<key name="prefix" />
+				</key>
+				<key name="meta-date">
+					<key name="prefix" />
+				</key>
+				<key name="meta-modified">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category">
+					<key name="prefix" />
+				</key>
+				<key name="meta-category-parent">
+					<key name="prefix" />
+				</key>
+				<key name="readmore">
+					<key name="text" />
+				</key>
+			</key>
+			<key name="title">
+				<key name="format" />
+			</key>
+			<key name="maintenancemode">
+				<key name="message" />
+			</key>
+			<key name="contact">
+				<key name="header" />
+			</key>
+		</key>
+		<!-- End override keys for all themes -->
+	</admin-texts>
+</wpml-config>

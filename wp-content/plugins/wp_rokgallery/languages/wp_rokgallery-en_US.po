@@ -1,0 +1,1467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: RocketTheme LLC <support@rockettheme.com>\n"
+"Language-Team: Rocket Theme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/rtwp3/wp-content/plugins/\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: wp_rokcommon\n"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_SAVED"
+msgstr "RokGallery Settings Saved"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SAVE_CHANGES"
+msgstr "Save Changes"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_ALLOW_DUP_FILES"
+msgstr ""
+"Allow duplicate files (based on a md5 check of the file) to be imported into "
+"rokgallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_ALLOW_DUP_FILES"
+msgstr "Allow Duplicate Files"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO"
+msgstr "No"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_YES"
+msgstr "Yes"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_AUTOPUBLISH_SLICES"
+msgstr "Publish all slices (in a gallery or not) when a file is published."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_AUTOPUBLISH_SLICES"
+msgstr "Publish All Slices With File"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_GALLERY_AUTOPUBLISH"
+msgstr "The default setting for auto publishing gallery slices."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_GALLERY_REMOVE_SLICES"
+msgstr "Remove Gallery Slices on Delete"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_GALLERY_AUTOPUBLISH"
+msgstr "Auto Publish Gallery Slices"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_THUMB_XSIZE"
+msgstr ""
+"The default thumbnail width to be used when a Slice is not part of a Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_THUMB_XSIZE"
+msgstr "Width"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_THUMB_YSIZE"
+msgstr ""
+"The default thumbnail height to be used when a Slice is not part of a Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_THUMB_YSIZE"
+msgstr "Height"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_THUMB_KEEP_ASPECT"
+msgstr "Wether to have the keep aspect ratio enabled by default"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_THUMB_KEEP_ASPECT"
+msgstr "Keep Aspect Ratio"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_THUMB_BACKGROUND"
+msgstr ""
+"The default background color to be used for the thumbnails which are not "
+"part of a Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_THUMB_BACKGROUND"
+msgstr "Background Color"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_JPEG_QUALITY"
+msgstr ""
+"The image quality to save JPEG images at (0 to 100). Higher quality means "
+"more time to save the file."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_JPEG_QUALITY"
+msgstr "JPEG Image Quality"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_PNG_COMPRESSION"
+msgstr ""
+"The image quality to save PNG images at (0 to 9). Higher quality means more "
+"time to save the file."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_PNG_COMPRESSION"
+msgstr "PNG Image Compression Level"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_LOVE_TEXT"
+msgstr ""
+"Text to use for the Love action on an image.  This can be a string to be "
+"translated"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_LOVE_TEXT"
+msgstr "Love text"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_DESC_UNLOVE_TEXT"
+msgstr ""
+"Text to use for an Unlove action on an image.  This can be a string to be "
+"translated"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SETTINGS_LABEL_UNLOVE_TEXT"
+msgstr "Unlove text"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_VIEW_GALLERY_OPTIONS"
+msgstr "Gallery Selection and Options"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_GALLERY"
+msgstr "The Gallery to display"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_GALLERY"
+msgstr "Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_DEFAULT_LAYOUT"
+msgstr "Layout for the Gallery."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_DEFAULT_LAYOUT"
+msgstr "Gallery Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GRID_3COL"
+msgstr "Grid View - 3 Columns"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GRID_4COL"
+msgstr "Grid View - 4 Columns"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LIST_2COL"
+msgstr "List View - 2 Columns"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_STYLE"
+msgstr "The gallery style you would like to show."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_STYLE"
+msgstr "Gallery Style"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LIGHT"
+msgstr "Light"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DARK"
+msgstr "Dark"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SORT_BY"
+msgstr "Sort the images in the module by."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SORT_BY"
+msgstr "Sort By"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_GALLERY_ORDERING"
+msgstr "Order"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_TITLE"
+msgstr "Title"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_UPDATED"
+msgstr "Updated"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_CREATED"
+msgstr "Created"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_LOVES"
+msgstr "Loves"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_VIEWS"
+msgstr "Views"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_RANDOM"
+msgstr "Random"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SORT_DIRECTION"
+msgstr "Direction to sort the image in."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SORT_DIRECTION"
+msgstr "Sort Direction"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ASCENDING"
+msgstr "Ascending"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESCENDING"
+msgstr "Descending"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_LINKTYPE"
+msgstr "The type; if any, of the main image."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_LINKTYPE"
+msgstr "Link Type"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LINK_NONE"
+msgstr "none"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLICE_LINK Link"
+msgstr "Slice Link"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ROKBOX_LINK"
+msgstr "Link to RokBox Slice Image"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ROKBOX_LINK_FULL"
+msgstr "Link to RokBox Full Image"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_VIEW_LAYOUT_OPTIONS"
+msgstr "Page Layout Options"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_SORTS"
+msgstr "Show the sorting options section"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_SORTS"
+msgstr "Show Sorting Options"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_AVAILABLE_SORTS"
+msgstr "Select all the sorts that are available"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_AVAILABLE_SORTS"
+msgstr "Available Sorts"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_AVAILABLE_LAYOUTS"
+msgstr "Show the selection of the available layouts"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_AVAILABLE_LAYOUTS"
+msgstr "Show Layouts Selection"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_AVAILABLE_LAYOUTS"
+msgstr "Layouts to have available to be switched to in a gallery view"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_AVAILABLE_LAYOUTS"
+msgstr "Available Layouts Shown"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_NUM_PAGES_SHOWN_IN_RANGE"
+msgstr "Shown Pages in Paging Range"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_ROWS_ON_3COL_GRID_PAGE"
+msgstr "Number of rows to show per page on the Grid 3 Column Layout"
+
+# @ wp_rokgallery
+msgid "Rows on Grid 3 Column Page"
+msgstr "Rows on Grid 3 Column Page"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_ROWS_ON_4COL_GRID_PAGE"
+msgstr "Number of rows to show per page on the Grid 4 Column Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_ROWS_ON_4COL_GRID_PAGE"
+msgstr "Rows on Grid 4 Column Page"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_ROWS_ON_2COL_LIST_PAGE"
+msgstr "Number of rows to show per page on the List 2 Column Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_ROWS_ON_2COL_LIST_PAGE"
+msgstr "Rows on List 2 Column Page"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_VIEW_GALLERY_VIEW_OPTIONS"
+msgstr "Gallery Page Options"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_TITLE"
+msgstr "Show the slice title."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_TITLE"
+msgstr "Show Title"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_USE_TITLE_FROM"
+msgstr "Select either to use the title from the File or the Slice"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_USE_TITLE_FROM"
+msgstr "Use Title of"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_CAPTION"
+msgstr "Show the slice caption."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_CAPTION"
+msgstr "Show Caption"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_USE_CAPTION_FROM"
+msgstr "Select either to use the caption from the File or the Slice"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_USE_CAPTION_FROM"
+msgstr "Use Caption of"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_TAGS"
+msgstr "Show the Tags on the gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_TAGS"
+msgstr "Show Tags"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_USE_TAGS_FROM"
+msgstr "Select either to use the tags from the File or the Slice"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_USE_TAGS_FROM"
+msgstr "Use Tags of"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_FILE"
+msgstr "File"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLICE"
+msgstr "Slice"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_COMBINED"
+msgstr "Combined"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_REMOVE_GALLERY_TAGS"
+msgstr "Remove the tags the gallery is based on from the tags list"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_REMOVE_GALLERY_TAGS"
+msgstr "Remove Gallery Tags"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_TAGS_COUNT"
+msgstr "Show the tags count icon"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_TAGS_COUNT"
+msgstr "Show Tags Count"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_CREATED_DATE"
+msgstr "Show the date the file was imported"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_CREATED_DATE"
+msgstr "Show Create Date"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_LOVES"
+msgstr "Show the loves icon and count"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_LOVES"
+msgstr "Show Loves"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_VIEWS"
+msgstr "Show the views icon and count"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_VIEWS"
+msgstr "Show Views"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_VIEW_DETAIL_VIEW_OPTIONS"
+msgstr "Detail Page Options"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_UPDATED_DATE"
+msgstr "Show the date the slice was last upadted"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_UPDATED_DATE"
+msgstr "Show Updated Date"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_FILESIZE"
+msgstr "Show the file Size of the image"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_FILESIZE"
+msgstr "Show File Size"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_USE_FILESIZE_FROM"
+msgstr "Select to use the file size of the full file or the slice"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_USE_FILESIZE_FROM"
+msgstr "Use File Size of"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SLICE_DIMENSIONS"
+msgstr "Show the dimensions (XxY) of the image"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_DIMENSIONS"
+msgstr "Show Image Dimensions"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_USE_DIMENSIONS_FROM"
+msgstr "Select either the File or Slice image dimensions."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_USE_DIMENSIONS_FROM"
+msgstr "Use Dimensions of"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_DOWNLOAD_FULL"
+msgstr "Show a link to download the full size image"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_DOWNLOAD_FULL"
+msgstr "Show Download Link"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOW_GALLERY_INFO"
+msgstr "Show information about the Gallery the image belongs to"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOW_GALLERY_INFO"
+msgstr "Show Gallery Info"
+
+# @ wp_rokgallery
+msgid "DEFAULT_DESC_MENU_ITEM"
+msgstr "The menu item to link to when a slice has no link"
+
+# @ wp_rokgallery
+msgid "DEFAULT_LABEL_MENU_ITEM"
+msgstr "Default linked Item"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_LIMIT"
+msgstr "The max amount of slices to show in the gallery."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_LIMIT"
+msgstr "Slice Limit"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_LAYOUT"
+msgstr "The gallery layout you would like to show."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_LAYOUT"
+msgstr "Gallery Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_COLUMNS"
+msgstr "The number of columns to show the slices in for the grid view."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_COLUMNS"
+msgstr "Grid Columns"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_ARROWS"
+msgstr "Show left and right arrow navigation"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_ARROWS"
+msgstr "Show Arrows"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_HOVER"
+msgstr "Only on Hover"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_NAVIGATION"
+msgstr "If any; what kind of navigation to use."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_NAVIGATION"
+msgstr "Navigation Type"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_THUMBNAILS"
+msgstr "Thumbnails"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NONE"
+msgstr "None"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_RANDOM"
+msgstr "Random"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CROSSFADE"
+msgstr "Crossfade"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BLINDS_TO_RIGHT"
+msgstr "Blinds to Right"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BLINDS_TO_LEFT"
+msgstr "Blinds to Left"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BLINDS_TO_DOWN_LEFT"
+msgstr "Blinds to Down Left"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BLINDS_TO_DOWN_RIGHT"
+msgstr "Blinds to Down Right"
+
+# @ wp_rokgalley
+msgid "ROKGALLERY_BLINDS_MIRROR_OUT_TO_IN"
+msgstr "Blinds Mirror Out to In"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BLINDS_MIRROR_IN_TO_OUT"
+msgstr "Blinds Mirror In to Out"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BLINDS_RANDOMIZE"
+msgstr "Blinds Randomize"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOXES_TO_RIGHT"
+msgstr "Boxes to Right"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOXES_TO_LEFT"
+msgstr "Boxes to Left"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOXES_OPACITY_TO_RIGHT"
+msgstr "Boxes Opacity to Right"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOXES_OPACITY_TO_LEFT"
+msgstr "Boxes Opacity to Left"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOXES_MIRROR"
+msgstr "Boxes Mirror"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOXES_RANDOMIZE"
+msgstr "Boxes Randomize"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLIDE_DOWN"
+msgstr "Slide Down"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLIDE_UP"
+msgstr "Slide Up"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLIDE_LEFT"
+msgstr "Slide Left"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLIDE_RIGHT"
+msgstr "Slide Right"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_ANIMATION_DURATION"
+msgstr "How long should the animation take."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_ANIMATION_DURATION"
+msgstr "Animation Duration (ms.)"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_AUTOPLAY_ENABLED"
+msgstr "Let the Slideshow cycle automatically."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_AUTOPLAY_ENABLED"
+msgstr "Autoplay"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ENABLED"
+msgstr "Enabled"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ENABLED_WITH_PROGRESS"
+msgstr "Enabled with Progress"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DISABLED"
+msgstr "Disabled"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_AUTOPLAY_DELAY"
+msgstr "Autoplay Delay"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOWCASE_IMAGEPOSITION"
+msgstr "Where the image is going to appear compared to the title and caption"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOWCASE_IMAGEPOSITION"
+msgstr "Show Image on"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LEFT"
+msgstr "Left"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_RIGHT"
+msgstr "Right"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOWCASE_IMGPADDING"
+msgstr ""
+"Adds an amount of extra space in pixels around the image. Used to provide "
+"extra space to style the image surround or to provide extra space between "
+"the image and the content."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOWCASE_IMGPADDING"
+msgstr "Image Padding (px)"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOWCASE_FIXEDHEIGHT"
+msgstr ""
+"When enabled, the height of the Showcase is based on the the tallest slice / "
+"caption of the list and moving between them won't cause any height change."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOWCASE_FIXEDHEIGHT"
+msgstr "Fixed Height"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOWCASE_ANIMATEDHEIGHT"
+msgstr ""
+"When enabled, the height of the Showcase will change smoothly through an "
+"animation otherwise will just change height without any animation. This "
+"option requires the Fixed Height to be disabled in order to get triggered."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SHOWCASE_ANIMATEDHEIGHT"
+msgstr "Animate Height"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SLICEANIMATION_TYPE"
+msgstr "The type of animation to use for the Slices."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_SLICEANIMATION_TYPE"
+msgstr "Slices Animation Type"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_CAPTIONSANIMATION_TYPE"
+msgstr "The type of animation to use for the Captions."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_CAPTIONSANIMATION_TYPE"
+msgstr "Captions Animation Type"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_TOP_DOWN"
+msgstr "Top Down"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BOTTOM_UP"
+msgstr "bottom Up"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_SHOWCASE_AUTOPLAY_ENABLED"
+msgstr "Let the Showcase cycle automatically."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESC_AUTOPLAY_DURATION"
+msgstr "Seconds to wait before cycling to the next animation."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LABEL_AUTOPLAY_DURATION"
+msgstr "Autoplay Delay (secs.)"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_FILTER"
+msgstr "Filter"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_TYPE"
+msgstr "Select Type"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_TITLE"
+msgstr "Title"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_TAGS"
+msgstr "Tags"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY"
+msgstr "Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PUBLISHED"
+msgstr "Published"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_FILE_SIZE"
+msgstr "File Size"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_FILE_WIDTH"
+msgstr "File Width"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_FILE_HEIGHT"
+msgstr "File Height"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_OPERATOR"
+msgstr "Select Operator"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_IS"
+msgstr "Is"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_IS_NOT"
+msgstr "Is Not"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CONTAINS"
+msgstr "Contains"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CONTAINS_NOT"
+msgstr "Does Not Contain"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GREATER_THAN"
+msgstr "Greater Than"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LESSER_THAN"
+msgstr "Lesser Than"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_GALLERY"
+msgstr "Select Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_ORDER"
+msgstr "Select Order"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_ORDERBY"
+msgstr "Order By"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CREATED_AT"
+msgstr "Created at"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UPDATED_AT"
+msgstr "Updated at"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_FILE_SIZE"
+msgstr "File Size"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_ORDERING"
+msgstr "Gallery Order"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_ORDERDIRECTION"
+msgstr "Order Direction"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT"
+msgstr "Sort"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLICE_EDITOR"
+msgstr "Slice Editor"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SAVE"
+msgstr "Save"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PUBLISH"
+msgstr "Publish"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO_GALLERY"
+msgstr "No Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DELETE"
+msgstr "Delete"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CLOSE"
+msgstr "Close"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLUG"
+msgstr "Slug"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LINK"
+msgstr "Link"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_ARTICLE"
+msgstr "Select Article"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CAPTION"
+msgstr "Caption"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_EG"
+msgstr "e.g. travel, europe"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ADD"
+msgstr "Add"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_OOPS"
+msgstr "Oops, there is no tag. Add your first tag now."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_HAND_TOOL"
+msgstr "Hand Tool"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_MARQUEE_TOOL"
+msgstr "Marquee Tool"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ZOOMIN"
+msgstr "Zoom-in"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ZOOMOUT"
+msgstr "Zoom-out"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_MARQUEE"
+msgstr "Marquee"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_APPLY"
+msgstr "Apply"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_REVERT"
+msgstr "Revert"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SCALE"
+msgstr "Scale"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_EDIT"
+msgstr "Edit"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SAVING"
+msgstr "Saving"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DESCRIPTION"
+msgstr "Description"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLICES"
+msgstr "Slices"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NEW"
+msgstr "New"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SHARE"
+msgstr "Share"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PAGINATION_PREV"
+msgstr "Prev"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PAGINATION_NEXT"
+msgstr "Next"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_BACK_TO_GALLERY"
+msgstr "Back To Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_GALLERY_NAME"
+msgstr "Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_FILE_DESC"
+msgstr "Description"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_VIEWS_COUNT"
+msgstr "Views"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_LOVES_COUNT"
+msgstr "Loves"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_TAGS_COUNT"
+msgstr "Tag Count"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_DOWNLOAD"
+msgstr "Download"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_ADD_INFO"
+msgstr "Additional Info"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_FILE_DIMENSIONS"
+msgstr "Dimensions"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_FILE_CREATED"
+msgstr "Created"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DETAIL_FILE_UPDATED"
+msgstr "Updated"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SELECT_A_GALLERY"
+msgstr "Select a Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CREATE_NEW"
+msgstr "Create New..."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NEW_BASED_ON"
+msgstr "New Based On"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_DRAG_TO_REORDER"
+msgstr "Drag the thumbnails around to reorder."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NAME"
+msgstr "Name"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_IMAGES"
+msgstr "Images"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SIZE"
+msgstr "Size"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_KEEP_ASPECT_RATIO"
+msgstr "Keep Aspect Ratio"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_FORCE_IMAGE_SIZE"
+msgstr "Force Images Size"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_THUMBNAILS_SIZE"
+msgstr "Thumbnails Size"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_BACKGROUND_COLOR"
+msgstr "Background Color"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ASPECT_RATIO"
+msgstr "Aspect Ratio"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ADVANCED_OPTIONS"
+msgstr "Advanced Options"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_MANUAL_ORDER"
+msgstr "Ordering"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_MANUAL_ORDER_DESC"
+msgstr "Manually manage the ordering of the gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_AUTOMATICALLY_DESC"
+msgstr "Automatically publish slices when added to a gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_AUTOMATICALLY_DELETE_DESC"
+msgstr "Automatically delete slices when removed from gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SORT_GALLERY_DESC"
+msgstr "Sort gallery by"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_VIEW_SELECTOR_DESC"
+msgstr "View"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_LIST_CREATED"
+msgstr "Created"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PICKER_BACK"
+msgstr "Back"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PICKER_INSTRUCTIONS"
+msgstr ""
+"Customize through the dropdowns the slice to be inserted and click on the "
+"link icon %1$s to insert it."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_PICKER_INSERT_SLICE"
+msgstr "Insert Slice"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_THERE_ARE_CURRENTLY"
+msgstr "There are currently"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_JOBS"
+msgstr "Jobs"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_REFRESH"
+msgstr "Refresh"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CLEAN"
+msgstr "Clean"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_WIPEALL"
+msgstr "Wipe All"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO_GALLERY_DEFINED"
+msgstr "RokGallery widget %1$s (id=%2$d) does not have a gallery selected"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_ID"
+msgstr "Unable to find job with id %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO_FILES_SENT"
+msgstr "No Files sent in upload"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_JOB"
+msgstr "Unable to find job id %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NOT_IN_PREPPING_STATUS"
+msgstr "Job is not in the prepping status."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NOT_AN_IMPORT_JOB"
+msgstr "Job is not an Import job"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_CREATE_OR_WRITE_TO_TEMP_DIR"
+msgstr "Unable to create or write to the temporary directory %1$s."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_FILE_N_TO_DELETE"
+msgstr "Unable to find file \"_QQ_\"%1$s\"_QQ_\" to delete."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_DIR_N_FOR_FILE_N_TO_REMOVE"
+msgstr "Unable to find directory %1$s for file \"_QQ_\"%2$s\"_QQ_\" to remove."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_DELETE_DIR_N_FOR_FILE_N_TO_REMOVE"
+msgstr ""
+"Unable to delete directory %1$s for file \"_QQ_\"%2$s\"_QQ_\" to remove."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_FILE_N_TO_UPDATE"
+msgstr "Unable to find file \"_QQ_\"%1$s\"_QQ_\" to update."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_FILE_TO_ADD_TAG_TO"
+msgstr "Unable to find file to add tag to."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_TAGS_FOR_FILE"
+msgstr "Unable to find tags for file."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO_SETTINGS_PASSED_TO_UPDATE"
+msgstr "No settings passed to update."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_A_GALLERY_ALREADY_EXISTS_WITH_THE_NAME_N"
+msgstr "A Gallery already exists with the name %1$s."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_GALLERY_WITH_ID_N_TO_UPDATE"
+msgstr "Unable to find gallery with id %1$s to update."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_JOB_WITH_ID_N_TO_PROCESS"
+msgstr "Unable to find job with id %1$s to process."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_JOB_ID_N"
+msgstr "Unable to find job id %1$s."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_STARTING_N_JOB"
+msgstr "Starting %1$s job"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_CANCELED"
+msgstr "%1$s Canceled."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_SLICE_N"
+msgstr "Unable to find slice %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_DELETE_ADMIN_SLICE"
+msgstr "Unable to delete the admin slice."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_PAUSED"
+msgstr "%1$s Paused."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_A_MATCHING_FILE_FOR_N_IN_SYSTEM"
+msgstr "A matching file for %1$s appears to already be in the system."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_CREATE_OR_WRITE_TO_THE_DIR_N"
+msgstr "Unable to create or write to the directory %1$s."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_IMPORTED_FILE_N"
+msgstr "Imported file %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UPDATED_GALLERY_SLICE_FOR_FILE_N"
+msgstr "Updated Gallery Slice for file %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_UPDATE_COMPLETE"
+msgstr "Gallery Update Complete"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_FILE"
+msgstr "Unable to find file"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NOT_A_VALID_GALLERY"
+msgstr "Not a valid Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CREATE_UPDATE"
+msgstr "Create Update"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_PASSED_MANIPULATION_ACTION_N"
+msgstr "Unable to find passed manipulation action %1$s."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_MANIPULATION_WAS_NOT_SETUP_PRIOR_TO_APPLYING"
+msgstr "The Manipulation was not setup prior to applying."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_FIND_PROCESS_FOR_JOB_TYPE_N"
+msgstr "Unable to find process for Job type %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_CREATE_GALLERY_SLICE_FOR_FILE_N"
+msgstr "Created Gallery Slice for file %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_UNABLE_TO_GET_MD5_OF_FILE_N"
+msgstr "Unable to get MD5 of file %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GALLERY_CREATION_COMPLETE"
+msgstr "Gallery Creation Complete"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_REMOVE_TAGS_FROM_FILE_N"
+msgstr "Removed Tags to file %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ADDED_TAGS_TO_FILE_N"
+msgstr "Added Tags to file %1$s"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_TAG_ADDITION_COMPLETE"
+msgstr "Tag Addition Complete"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_TAG_REMOVAL_COMPLETE"
+msgstr "Tag Removal Complete"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_GRID"
+msgstr "Grid Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SLIDESHOW"
+msgstr "Slideshow Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY"
+msgstr "RokGallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SHOWCASE"
+msgstr "Showcase Layout"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SHOWCASE_RESPONSIVE"
+msgstr "Showcase Responsive Layout"
+
+# @ wp_rokgallery
+msgid "NO_TAGS_MESSAGE"
+msgstr "No Tags"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ADD_NEW_GALLERY"
+msgstr "Add New Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_EDIT_GALLERY"
+msgstr "Edit Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_ALL_GALLERIES"
+msgstr "All Galleries"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_VIEW_GALLERY"
+msgstr "View Gallery"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_SEARCH_GALLERIES"
+msgstr "Search Galleries"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO_GALLERIES_FOUND"
+msgstr "No Galleries found"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NO_GALLERIES_FOUND_IN_TRASH"
+msgstr "No Galleries found in Trash"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_POSTTYPE_DESC"
+msgstr "A Gallery component for Joomla 1.6 from RocketTheme."
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_NEW_GALLERIES"
+msgstr "New Galleries"
+
+# @ wp_rokgallery
+msgid "RokGallery"
+msgstr "RokGallery"
+
+# @ wp_rokgallery
+msgid "Add New"
+msgstr "Add New"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SELECTED"
+msgstr "Files Selected"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SELECTALL"
+msgstr "Select All"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SELECTED_0"
+msgstr "Files Selected"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SELECTED_1"
+msgstr "File Selected"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SELECTED_MORE"
+msgstr "Files Selected"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_TOTAL"
+msgstr "Files Total"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_TOTAL_0"
+msgstr "Files Total"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_TOTAL_1"
+msgstr "File Total"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_TOTAL_MORE"
+msgstr "Files Total"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SHOWING"
+msgstr "Files Showing"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SHOWING_0"
+msgstr "Files Showing"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SHOWING_1"
+msgstr "File Showing"
+
+# @ wp_rokgallery
+msgid "ROKGALLERY_N_FILES_SHOWING_MORE"
+msgstr "Files Showing"
+
+# @ wp_rokgallery
+msgid ""
+"RokGallery Plugin requires the Rokcommon Library Plugin to be "
+"<strong>Installed</strong> and <strong>Activated</strong> before you can "
+"activate or use RokGallery."
+msgstr ""
+"RokGallery Plugin requires the Rokcommon Library Plugin to be "
+"<strong>Installed</strong> and <strong>Activated</strong> before you can "
+"activate or use RokGallery."
+
+# @ wp_rokgallery
+msgid ""
+"RokGallery Plugin requires the Rokcommon Library Plugin to be "
+"<strong>Activated</strong> before you can activate or use RokGallery."
+msgstr ""
+"RokGallery Plugin requires the Rokcommon Library Plugin to be "
+"<strong>Activated</strong> before you can activate or use RokGallery."
+
+# @ wp_rokgallery
+msgid "<strong>Unable to activate RokGallery:</strong><br/>"
+msgstr "<strong>Unable to activate RokGallery:</strong><br/>"
+
+# @ wp_rokgallery
+msgid "RokGallery database installation <strong>Successful!</strong>"
+msgstr "RokGallery database installation <strong>Successful!</strong>"
+
+# @ wp_rokgallery
+msgid "RokGallery upload folder creation <strong>Successful!</strong>"
+msgstr "RokGallery upload folder creation <strong>Successful!</strong>"
+
+# @ wp_rokgallery
+msgid "RokGallery upload folder creation <strong>Failed!</strong>"
+msgstr "RokGallery upload folder creation <strong>Failed!</strong>"
+
+# @ wp_rokgallery
+msgid "RokGallery database update <strong>Successful!</strong>"
+msgstr "RokGallery database update <strong>Successful!</strong>"
+
+# @ wp_rokgallery
+msgid "Removal of RokGallery database tables was <strong>Successful!</strong>"
+msgstr "Removal of RokGallery database tables was <strong>Successful!</strong>"
+
+# @ wp_rokgallery
+msgid "RokGallery upload folder removal <strong>Successful!</strong>"
+msgstr "RokGallery upload folder removal <strong>Successful!</strong>"
+
+# @ wp_rokgallery
+msgid "RokGallery upload folder removal <strong>Failed!</strong>"
+msgstr "RokGallery upload folder removal <strong>Failed!</strong>"
+
+# @ wp_rokgallery
+msgid ""
+"RokGallery database tables have not been removed. You must <strong>Remove</"
+"strong> the RokGallery Plugin to remove the database tables."
+msgstr ""
+"RokGallery database tables have not been removed. You must <strong>Remove</"
+"strong> the RokGallery Plugin to remove the database tables."
+
+# @ wp_rokgallery
+msgid "RokGallery Plugin has been deactivated."
+msgstr "RokGallery Plugin has been deactivated."

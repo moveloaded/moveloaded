@@ -1,0 +1,17 @@
+/**
+ * @version   1.0 May 15, 2015
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2015 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Navigation */
+body .gf-menu li.parent > .item:after {top: 100%;}
+
+/* Mainbody */
+body #rt-content-top, body #rt-content-bottom {display: block;}
+body #rt-content-top .rt-grid-6, body #rt-content-bottom .rt-grid-6,
+body #rt-content-top .rt-grid-7, body #rt-content-bottom .rt-grid-7,
+body #rt-content-top .rt-grid-8, body #rt-content-bottom .rt-grid-8,
+body #rt-content-top .rt-grid-9, body #rt-content-bottom .rt-grid-9 {width: 100%;}
+body #rt-content-top .rt-grid-3, body #rt-content-bottom .rt-grid-3 {width: 33.33333%;}

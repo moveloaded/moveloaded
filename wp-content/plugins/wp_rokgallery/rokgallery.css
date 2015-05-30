@@ -1,0 +1,261 @@
+/*toolbar stuff*/
+.toolbar-wrapper {
+    float: right;
+    position: relative;
+    clear: none;
+    margin-left: 5px;
+}
+
+.toolbar li {
+    float: right;
+    clear: none;
+    position: relative;
+    margin: 5px 10px 5px 5px;
+}
+
+.toolbar li {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.toolbar-button a span {
+    opacity: 0.6;
+}
+
+.toolbar-button a:hover span {
+    opacity: 1;
+}
+
+.toolbar-button a:active span {
+    opacity: 1;
+}
+
+.rokgallery-form {
+    padding-top: 30px;
+}
+
+/*page stuff*/
+.page-header {
+    display: block;
+    padding: 10px;
+    clear: none;
+}
+
+.page-header h2 {
+    float: left;
+    display: block;
+}
+
+div#rokgallery {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+
+div#rokgallery div#header {
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+}
+
+/*logo*/
+div#icon-edit.icon32.icon32-posts-rokgallery, div.icon32-posts-rokgallery {
+    background: url("assets/images/rokgallery_32x32.png") no-repeat scroll transparent;
+}
+
+/* metabox sliders styles */
+.rokgallery-handle {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top: solid 1px #DFDFDF !important;
+    border-right: solid 1px #DFDFDF !important;
+    border-left: solid 1px #DFDFDF !important;
+}
+
+.rokgallery-panel {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom: solid 1px #DFDFDF !important;
+    border-right: solid 1px #DFDFDF !important;
+    border-left: solid 1px #DFDFDF !important;
+    padding: 10px;
+}
+
+.rokgallery-content {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/*wp clr fix*/
+.clr {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+/*wp input fix*/
+div#rokgallery div.query input#filter-query.input {
+    height: 25px;
+	margin: 0;
+}
+
+/*iframe window.php css*/
+
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+/* Alignment */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pagination */
+.pagination {
+    display: block;
+    width: auto;
+    height: 25px;
+    text-align: center;
+}
+
+.pagination span, .pagination a {
+    display: block;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 12px !important;
+    line-height: 13px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    text-decoration: none;
+    margin: 5px;
+    float: left;
+    clear: none;
+}
+
+.pagination span {
+    background-color: #efefef;
+}
+
+/* MooTools.Tips */
+.tip-top {
+    color: #fff;
+    width: 139px;
+    z-index: 13000;
+}
+
+.tip-title {
+    width: 145px;
+    font-size: 11px;
+    margin: 0;
+    color: #ddd;
+    padding: 8px 8px 4px;
+}
+
+.tip-text {
+    width: 123px;
+    font-size: 11px;
+    padding: 4px 8px 8px;
+    color: #fff;
+}
+
+.tip-text A {
+    color: #069;
+}
+
+.tip-wrap {
+    z-index: 1000 !important;
+    padding: 5px;
+    border-radius: 6px;
+    background: #000;
+    opacity: 0.7;
+    border: 1px solid #000;
+}
+
+/* RokGallery Pages styling */
+
+#rokgallery_metabox > .inside, #rokgallery_metabox .inside > #rg-content {
+	padding: 0; margin: 0;
+}
+
+#rokgallery_metabox #rg-content #rok-tabs > ul.rok-tabs {
+	padding-left: 10px;
+	padding-top: 5px;
+	border-radius: 0;
+	background:-moz-linear-gradient(bottom,#e9e9e9,#f4f4f4 21%);
+	background:-webkit-gradient(linear,left bottom,left top,from(#e9e9e9),to(#f4f4f4),color-stop(0.21,#f4f4f4));
+	background:-o-linear-gradient(bottom,#e9e9e9,#f4f4f4 21%);
+	background:-ms-linear-gradient(bottom,#e9e9e9,#f4f4f4 21%);
+}
+#rokgallery_metabox #rg-content #rok-tabs > ul.rok-tabs li span {
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#rokgallery_metabox #rg-content #rok-tabs > ul.rok-tabs li.ui-state-hover {
+	background: #e6e6e6;
+}
+
+#rokgallery_metabox #rg-content #rok-tabs > ul.rok-tabs li.ui-state-active, #rokgallery_metabox #rg-content #rok-tabs > ul.rok-tabs li.ui-state-active.ui-state-hover {
+	background: -moz-linear-gradient(center top , #E2E2E2, #FAFAFA 70%);
+	background:-webkit-gradient(linear,center top,center bottom,from(#E2E2E2),to(#FAFAFA),color-stop(0.70,#FAFAFA));
+	background: -o-linear-gradient(top,#E2E2E2, #FAFAFA 70%);
+	background: -ms-linear-gradient(center top ,#E2E2E2, #FAFAFA 70%);
+    border: 1px #D9D9D9 solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #21759B;
+}
+
+#rokgallery_metabox #rg-content #rok-tabs > ul.rok-tabs li.ui-state-active span {
+	color: #21759B;
+}
+
+#rokgallery_metabox #rg-content #rok-tabs > div.ui-tabs-panel {
+	border-top: #e3e3e3 1px solid;
+}
+
+#rokgallery_metabox #rg-content .rokgallery-options-table {
+	width: 100%;
+}
+
+#rokgallery_metabox #rg-content .rokgallery-options-table .rokgallery-table-25 {
+	width: 25%;
+	vertical-align: middle;
+}
+
+#rokgallery_metabox #rg-content .rokgallery-options-table .rokgallery-table-75 {
+	width: 75%;
+	vertical-align: middle;
+}
+
+.rokgallery-admin_page_rokgallery-options #footer {
+    position: relative;
+}

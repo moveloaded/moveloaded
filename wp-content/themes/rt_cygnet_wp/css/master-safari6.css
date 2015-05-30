@@ -1,0 +1,10 @@
+/**
+ * @version   1.0 May 15, 2015
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2015 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+.gf-menu .item.icon [class^="icon-"], .gf-menu .item.icon [class*=" icon-"] {-webkit-font-smoothing: inherit;}
+canvas[id^=myChart] { height: auto !important;}
+#rt-showcase div.sprocket-features-desc > span {display: block;}
