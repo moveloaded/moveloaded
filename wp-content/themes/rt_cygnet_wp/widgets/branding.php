@@ -40,7 +40,7 @@ class GantryWidgetBranding extends GantryWidget {
 	    ob_start();
 	    ?>
 	    <div id="<?php echo $this->id; ?>" class="rt-block rt-branding <?php echo $this->css_classname; ?> widget">
-        	<a href="http://www.rockettheme.com/" title="RocketTheme" class="rt-powered-by"></a>
+        	<a href="http://www.moveloaded.com/" title="MoveLoaded" class="rt-powered-by"></a>
         </div>
 	    <?php
 	    echo ob_get_clean();
