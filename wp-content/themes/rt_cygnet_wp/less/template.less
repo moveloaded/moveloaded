@@ -68,7 +68,7 @@ h5 {font-size: 110%;line-height: 110%;}
 		}	
 		#rt-logo {
 			display: block;
-			background-image: url(../images/logo/preset@{index}/logo.png);
+			background-image: url(http://moveloaded.s3.amazonaws.com/wp-content/uploads/2015/06/02023940/logo.png);
 			background-repeat: no-repeat;
 			margin: 12px auto -20px auto;
 			width: 200px;
@@ -85,7 +85,7 @@ h5 {font-size: 110%;line-height: 110%;}
 .showcaseLogo(@index, @even: @index - 1) when (@index = 6), (@index = 4), (@index = 2) {
 	(~".logo-type-preset@{index}") {
 		#rt-showcase #rt-logo {
-			background-image: url(../images/logo/preset@{even}/logo.png);
+			background-image: url(http://moveloaded.s3.amazonaws.com/wp-content/uploads/2015/06/02023940/logo.png);
 		}
 	}
 	.showcaseLogo(@index - 2);
@@ -1438,7 +1438,7 @@ canvas {
 // Gantry Branding
 .rt-powered-by {
 	display: block;
-	background: url(../images/utilities/branding.png) 0 0 no-repeat;
+	background: url(http://moveloaded.s3.amazonaws.com/wp-content/uploads/2015/06/02024047/branding.png) 0 0 no-repeat;
 	width: 125px;
 	height: 28px;
 	opacity: 0.5;
