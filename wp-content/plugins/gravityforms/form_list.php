@@ -227,7 +227,7 @@ class GFFormList {
 			}
 
 			function ConfirmDeleteForm(form_id){
-				if( confirm(<?php echo json_encode( __( 'WARNING: You are about to delete this form and ALL entries associated with it. ', 'gravityforms' ) . __( 'Cancel to stop, OK to delete.', 'gravityforms' ) ); ?>) ){
+				if( confirm(<?php echo json_encode( __( 'WARNING: You are about to delete this form and ALL entries associated with it. ', 'gravityforms' ) . esc_html__( 'Cancel to stop, OK to delete.', 'gravityforms' ) ); ?>) ){
 					DeleteForm(form_id);
 				}
 			}
@@ -247,11 +247,11 @@ class GFFormList {
 				var is_active = img.src.indexOf("active1.png") >= 0
 				if (is_active) {
 					img.src = img.src.replace("active1.png", 'active0.png');
-					jQuery(img).attr('title', <?php echo json_encode( __( 'Inactive', 'gravityforms' ) ); ?>).attr('alt', <?php echo json_encode( __( 'Inactive', 'gravityforms' ) ); ?>);
+					jQuery(img).attr('title', <?php echo json_encode( esc_attr__( 'Inactive', 'gravityforms' ) ); ?>).attr('alt', <?php echo json_encode( esc_attr__( 'Inactive', 'gravityforms' ) ); ?>);
 				}
 				else {
 					img.src = img.src.replace("active0.png", 'active1.png');
-					jQuery(img).attr('title', <?php echo json_encode( __( 'Active', 'gravityforms' ) ); ?>).attr('alt', <?php echo json_encode( __( 'Active', 'gravityforms' ) ); ?>);
+					jQuery(img).attr('title', <?php echo json_encode( esc_attr__( 'Active', 'gravityforms' ) ); ?>).attr('alt', <?php echo json_encode( esc_attr__( 'Active', 'gravityforms' ) ); ?>);
 				}
 
 				UpdateCount("active_count", is_active ? -1 : 1);
@@ -637,7 +637,7 @@ class GFFormList {
 
 			function loadNewFormModal() {
 				resetNewFormModal();
-				tb_show(<?php echo json_encode( __( 'Create a New Form', 'gravityforms' ) ); ?>, '#TB_inline?width=375&amp;inlineId=gf_new_form_modal');
+				tb_show(<?php echo json_encode( esc_html__( 'Create a New Form', 'gravityforms' ) ); ?>, '#TB_inline?width=375&amp;inlineId=gf_new_form_modal');
 				jQuery('#new_form_title').focus();
 				return false;
 			}
@@ -651,7 +651,7 @@ class GFFormList {
 				jQuery('#gf_new_form_error_message').html('');
 
 				var origVal = createButton.val();
-				createButton.val(<?php echo json_encode( __( 'Creating Form...', 'gravityforms' ) ); ?>);
+				createButton.val(<?php echo json_encode( esc_html__( 'Creating Form...', 'gravityforms' ) ); ?>);
 
 				var form = {
 					title: jQuery('#new_form_title').val(),
@@ -660,7 +660,7 @@ class GFFormList {
 					descriptionPlacement:'below',
 					button: {
 						type: 'text',
-						text: <?php echo json_encode( __( 'Submit', 'gravityforms' ) ); ?>,
+						text: <?php echo json_encode( esc_html__( 'Submit', 'gravityforms' ) ); ?>,
 						imageUrl : ''
 					},
 					fields:[]
@@ -683,7 +683,7 @@ class GFFormList {
 						createButton.val(origVal);
 					} else {
 						location.href = respData.redirect;
-						createButton.val(<?php echo json_encode( __( 'Saved! Redirecting...', 'gravityforms' ) ); ?>);
+						createButton.val(<?php echo json_encode( esc_html__( 'Saved! Redirecting...', 'gravityforms' ) ); ?>);
 					}
 
 				});

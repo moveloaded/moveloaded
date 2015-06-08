@@ -450,7 +450,7 @@ class GFExport {
 
 				jQuery("#export_field_container, #export_filter_container, #export_date_container, #export_submit_container").hide().show();
 
-				gf_vars.filterAndAny = <?php echo json_encode( __( 'Export entries if {0} of the following match:', 'gravityforms' ) ); ?>;
+				gf_vars.filterAndAny = <?php echo json_encode( esc_html__( 'Export entries if {0} of the following match:', 'gravityforms' ) ); ?>;
 				jQuery("#export_filters").gfFilterUI(filterSettings);
 			}
 			jQuery(document).ready(function () {
@@ -552,7 +552,7 @@ class GFExport {
 	}
 
 	private static function get_field_row_count( $form, $exported_field_ids, $entry_count ) {
-		$list_fields = GFCommon::get_fields_by_type( $form, array( 'list' ) );
+		$list_fields = GFAPI::get_fields_by_type( $form, array( 'list' ), true );
 
 		//only getting fields that have been exported
 		$field_ids = '';

@@ -97,7 +97,7 @@ class GFEntryDetail {
 		}
 
 		if ( ! $lead ) {
-			_e( "Oops! We couldn't find your entry. Please try again", 'gravityforms' );
+			esc_html_e( "Oops! We couldn't find your entry. Please try again", 'gravityforms' );
 
 			return;
 		}
@@ -230,7 +230,7 @@ class GFEntryDetail {
 					mysack.setVar("field_id", fieldId);
 					mysack.setVar("file_index", fileIndex);
 					mysack.onError = function () {
-						alert(<?php echo json_encode( __( 'Ajax error while deleting field.', 'gravityforms' ) ) ?>)
+						alert(<?php echo json_encode( __( 'Ajax error while deleting field.', 'gravityforms' ) ); ?>)
 					};
 					mysack.runAJAX();
 
@@ -303,7 +303,7 @@ class GFEntryDetail {
 						if (response) {
 							displayMessage(response, "error", "#notifications_container");
 						} else {
-							displayMessage(<?php echo json_encode( __( 'Notifications were resent successfully.', 'gravityforms' ) ); ?>, "updated", "#notifications_container" );
+							displayMessage(<?php echo json_encode( esc_html__( 'Notifications were resent successfully.', 'gravityforms' ) ); ?>, "updated", "#notifications_container" );
 
 							// reset UI
 							jQuery(".gform_notifications").attr( 'checked', false );
@@ -830,7 +830,7 @@ class GFEntryDetail {
 				<th id="details">
 					<?php
 					$title = sprintf( '%s : %s %s', esc_html( $form['title'] ), esc_html__( 'Entry # ', 'gravityforms' ), absint( $lead['id'] ) );
-					echo apply_filters( 'gform_entry_detail_title', $title, $form, $lead );
+					echo apply_filters( 'gravityflow_title_entry_detail', $title, $form, $lead );
 					?>
 				</th>
 				<th style="width:140px; font-size:10px; text-align: right;">
